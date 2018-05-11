@@ -3,22 +3,12 @@ package main.Strings;
 /**
  * Created by Tri-Nvent on 5/11/2018.
  */
-public class CasesDemo {
+public class StringToIntegerDemo {
     public static void main(String[] args){
-        String dragon = "DrAgOnS";
-        String upperCase = dragon.toUpperCase();
-        String lowerCase = dragon.toLowerCase();
-
-        if(dragon == upperCase) {
-            System.out.println("The word " + dragon +" is already on UpperCase ");
-        }else{
-            System.out.println("Covert To Uppercase : " + dragon.toUpperCase());
-        }
-
-        if(dragon == lowerCase) {
-            System.out.println("The word " + dragon +" is already on LowerCase ");
-        }else{
-            System.out.println("Covert To Lowercase : " + dragon.toLowerCase());
-        }
+        String num1 = "100";
+//        int convertedNum = Integer.parseInt(num1);
+        int convertedNum = Integer.valueOf(num1);
+        System.out.println("String "+num1+" was Converted into Int");
+        System.out.println("Output using Arithmetic operation + :" + (convertedNum + convertedNum));
     }
 }
