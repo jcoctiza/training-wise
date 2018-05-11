@@ -3,20 +3,22 @@ package main.Strings;
 /**
  * Created by Tri-Nvent on 5/11/2018.
  */
-public class ReplaceDemo {
+public class CasesDemo {
     public static void main(String[] args){
-        String dragon = "Red Dragon";
-        String replace1 = "Bull";
-        String replace2 = "Blue";
-        String replace3 = "Black Bull";
-        String newBeast = dragon.replace("Dragon",replace1);
-        System.out.println(dragon);
-        System.out.println("Dragon Replaced by "+replace1+" = "+newBeast);
+        String dragon = "DrAgOnS";
+        String upperCase = dragon.toUpperCase();
+        String lowerCase = dragon.toLowerCase();
 
-        String newDragon = dragon.replaceFirst("Red",replace2);
-        System.out.println("Red Replaced by"+replace2+" = "+newDragon);
+        if(dragon == upperCase) {
+            System.out.println("The word " + dragon +" is already on UpperCase ");
+        }else{
+            System.out.println("Covert To Uppercase : " + dragon.toUpperCase());
+        }
 
-        String newName = dragon.replaceAll(dragon,replace3);
-        System.out.println(dragon+" Replaced by "+replace3+" = "+newName);
+        if(dragon == lowerCase) {
+            System.out.println("The word " + dragon +" is already on LowerCase ");
+        }else{
+            System.out.println("Covert To Lowercase : " + dragon.toLowerCase());
+        }
     }
 }
