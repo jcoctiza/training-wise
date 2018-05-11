@@ -3,7 +3,7 @@ package main.Strings;
 /**
  * Created by Tri-Nvent on 5/11/2018.
  */
-public class SringsDemo {
+public class SringDemo {
     public static void main(String[] args){
         String firstName = "James Carlo";
         String lastName = "Octiza";
@@ -13,5 +13,7 @@ public class SringsDemo {
         System.out.println("\nUsing '+' Operator:");
         String FullName = firstName + lastName;
         System.out.println(FullName);
+
+        System.out.println("Length of Full Name: " + FullName.length());
     }
 }
