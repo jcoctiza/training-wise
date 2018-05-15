@@ -15,7 +15,7 @@ class Dragon {
         static int legs;
         static int wings;
     Dragon(){
-        
+
         wings++;
     }
     public void showData(){
