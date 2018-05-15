@@ -1,26 +1,28 @@
-package main.GarbageCollection;
+package main.StaticMethodAndVariable;
 
-public class GarbageCollectionDemo{
+public class StaticMethodAndVariableDemo{
     public static void main(String args[]){
-        Student s1 = new Student();
-        s1.showData();
-        Student s2 = new Student();
-        s2.showData();
-        Student.b++;
-        s1.showData();
+        Dragon d1 = new Dragon();
+        d1.showData();
+        Dragon d2 = new Dragon();
+        d2.showData();
+        Dragon.wings++;
+        d1.showData();
     }
 }
 
-class Student {
-    int a;
-    static int b;
-
-    Student(){
-        b++;
+class Dragon {
+        static int legs;
+        static int wings;
+    Dragon(){
+        
+        wings++;
     }
-
     public void showData(){
-        System.out.println("Value of a = "+a);
-        System.out.println("Value of b = "+b);
+        System.out.println("Number og Legs: "+legs);
+        System.out.println("Number of Wings: "+wings);
     }
+    public static void increment(){
+        legs++;
+}
 }
