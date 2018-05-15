@@ -7,8 +7,8 @@ import java.util.HashMap;
  */
 public class HashMapDemo {
         public static void main(String[] args) {
-
             HashMap dragon = new HashMap();
+
             dragon.put("Name", "Red Dragon");
             dragon.put("Color", "Red");
             dragon.put("Legs", 4);
