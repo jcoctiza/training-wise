@@ -23,5 +23,5 @@ public class THIS_KeywordDemo {
     }
 }
 class dragon extends THIS_KeywordDemo{
-    dragon(){legs = 2;}
+    dragon(){this.legs = 2;}
 }
