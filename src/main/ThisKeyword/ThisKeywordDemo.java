@@ -1,9 +1,9 @@
-package main.THIS_Keyword;
+package main.ThisKeyword;
 
 /**
  * Created by Tri-Nvent on 5/15/2018.
  */
-public class THIS_KeywordDemo {
+public class ThisKeywordDemo {
     String name;
     String color;
     int legs;
@@ -22,6 +22,6 @@ public class THIS_KeywordDemo {
         obj.showData();
     }
 }
-class dragon extends THIS_KeywordDemo{
+class dragon extends ThisKeywordDemo{
     dragon(){this.legs = 2;}
 }
