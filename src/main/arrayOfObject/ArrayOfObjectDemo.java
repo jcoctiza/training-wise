@@ -1,4 +1,4 @@
-package main.ArrayOfObject;
+package main.arrayOfObject;
 
 /**
  * Created by Tri-Nvent on 5/11/2018.
@@ -10,10 +10,10 @@ public class ArrayOfObjectDemo {
         dragonz[1] = new Dragon();
         dragonz[0].setData(2,4);
         dragonz[1].setData(4,2);
-        System.out.println("For Array Element: 0");
+        System.out.println("For array Element: 0");
         dragonz[0].showData();
         System.out.println("\n");
-        System.out.println("For Array Element: 1");
+        System.out.println("For array Element: 1");
         dragonz[1].showData();
     }
 }

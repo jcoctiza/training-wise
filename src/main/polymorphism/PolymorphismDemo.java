@@ -1,4 +1,4 @@
-package main.Polymorphism;
+package main.polymorphism;
 
 /**
  * Created by Tri-Nvent on 5/10/2018.

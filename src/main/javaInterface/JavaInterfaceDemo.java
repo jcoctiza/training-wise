@@ -1,4 +1,4 @@
-package main.JavaInterface;
+package main.javaInterface;
 
 
 class JavaInterfaceDemo implements Dragon{

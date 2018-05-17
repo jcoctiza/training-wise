@@ -1,6 +1,4 @@
-package main.JavaException;
-
-import java.lang.reflect.Array;
+package main.javaException;
 
 /**
  * Created by Tri-Nvent on 5/16/2018.

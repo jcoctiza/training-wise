@@ -1,4 +1,4 @@
-package main.HelloWorld;
+package main.helloWorld;
 
 /**
  * Created by Tri-Nvent on 5/8/2018.

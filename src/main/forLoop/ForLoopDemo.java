@@ -1,4 +1,4 @@
-package main.ForLoop;
+package main.forLoop;
 
 /**
  * Created by Tri-Nvent on 5/16/2018.

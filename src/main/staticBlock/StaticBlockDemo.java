@@ -1,4 +1,4 @@
-package main.StaticBlock;
+package main.staticBlock;
 
 /**
  * Created by Tri-Nvent on 5/15/2018.

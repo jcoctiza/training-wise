@@ -1,4 +1,4 @@
-package main.ArrayList;
+package main.arrayList;
 
 import java.util.ArrayList;
 
@@ -8,13 +8,13 @@ import java.util.ArrayList;
 public class ArrayListDemo {
     public static void main(String[] args){
         ArrayList dragon = new ArrayList();
-        System.out.println("Size of ArrayList upon creation: " + dragon.size());
+        System.out.println("Size of arrayList upon creation: " + dragon.size());
 
         dragon.add("Blue Dragon");
         dragon.add("Red Dragon");
         dragon.add("Black Dragon");
 
-        System.out.println("Size of ArrayList after adding elements: " + dragon.size());
+        System.out.println("Size of arrayList after adding elements: " + dragon.size());
         System.out.println("List of all elements: " + dragon);
 
         dragon.remove(2);

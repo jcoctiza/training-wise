@@ -1,6 +1,4 @@
-package main.Array;
-
-import java.util.Scanner;
+package main.array;
 
 /**
  * Created by Tri-Nvent on 5/10/2018.

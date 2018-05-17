@@ -1,4 +1,4 @@
-package main.ThisKeyword;
+package main.thisKeyword;
 
 /**
  * Created by Tri-Nvent on 5/15/2018.
@@ -17,11 +17,11 @@ public class ThisKeywordDemo {
         System.out.println("Legs: "+legs);
     }
     public static void main(String args[]){
-        dragon obj = new dragon();
+        Dragon obj = new Dragon();
         obj.setData("Red Dragon","Red");
         obj.showData();
     }
 }
-class dragon extends ThisKeywordDemo{
-    dragon(){this.legs = 2;}
+class Dragon extends ThisKeywordDemo{
+    Dragon(){this.legs = 2;}
 }

@@ -1,4 +1,4 @@
-package main.AbstractClasses;
+package main.abstractClasses;
 public class AbstractClassesDemo {
     public static void main(String[] args){
         RedDragon rd = new RedDragon();

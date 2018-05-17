@@ -1,4 +1,4 @@
-package main.JavaConstructors;
+package main.javaConstructors;
 
 /**
  * Created by Tri-Nvent on 5/15/2018.

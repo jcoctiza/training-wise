@@ -1,4 +1,4 @@
-package main.StaticMethodAndVariable;
+package main.staticMethodAndVariable;
 
 public class StaticMethodAndVariableDemo{
     public static void main(String args[]){

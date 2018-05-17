@@ -1,4 +1,4 @@
-package main.Inheritance;
+package main.inheritance;
 
 /**
  * Created by Tri-Nvent on 5/10/2018.
