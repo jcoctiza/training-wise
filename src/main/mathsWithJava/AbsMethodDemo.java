@@ -11,13 +11,15 @@ public class AbsMethodDemo {
             case 1:
                 Scanner intInput = new Scanner(System.in);
                 System.out.println("Int: ");
-                System.out.println("Absolute value: " +Math.abs(intInput.nextInt()));
+                int intNum = intInput.nextInt();
+                System.out.println("Absolute value for " +intNum+" is "+Math.abs(intNum));
                 break;
 
             case 2:
                 Scanner doubleInput = new Scanner(System.in);
+                double doubleNum = doubleInput.nextDouble();
                 System.out.println("Double: ");
-                System.out.println("Absolute value: " +Math.abs(doubleInput.nextDouble()));
+                System.out.println("Absolute value for "+doubleNum+" is "+Math.abs(doubleNum));
                 break;
 
             default:
